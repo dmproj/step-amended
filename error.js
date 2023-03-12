@@ -24,4 +24,4 @@ function loadJson(url) {
 }
 
 loadJson('https://**')
-  .catch(alert); // Error: 404
+  .catch(alert); // add in case if Error: 404
